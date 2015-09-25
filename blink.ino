@@ -5,6 +5,7 @@
   This example code is in the public domain.
  */
  
+// Javier's configuration
 // Pin 13 has an LED connected on most Arduino boards.
 // give it a name:
 int led = 13;
