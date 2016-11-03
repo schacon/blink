@@ -1,6 +1,7 @@
 /*
   Blink
   Turns on an LED on for three seconds, then off for three seconds, repeatedly.
+  The on and off times really should be identical for a pleasant experience.
  
   This example code is in the public domain.
  */
