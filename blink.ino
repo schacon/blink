@@ -18,7 +18,7 @@ void setup() {
 // the loop routine runs over and over again forever:
 void loop() {
   digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);               // wait for a second
+  delayMicroseconds(1000);               // use delayMicroseconds for accurate delay in mircoseconds
   digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW
-  delay(2000);               // wait for a second
+  delayMicroseconds(1000);               // use delayMicroseconds for accurate delay in mircoseconds
 }
