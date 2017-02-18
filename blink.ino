@@ -15,7 +15,7 @@ void setup() {
   pinMode(led, OUTPUT);     
 }
 
-// the loop routine runs over and over again forever:
+// the loop routine runs over and over again forever (improved):
 void loop() {
   digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
   delay(4000);               // wait for 4 seconds
