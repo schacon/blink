@@ -1,4 +1,4 @@
-/*
+/* MODIFY 1
   Blink
   Turns on an LED on for one second, then off for one second, repeatedly.
  
