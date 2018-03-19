@@ -9,6 +9,7 @@
 // give it a name:
 int led = 13;
 
+// This is a really nice setup routine
 // the setup routine runs once when you press reset:
 void setup() {                
   // initialize the digital pin as an output.
