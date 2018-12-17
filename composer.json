@@ -1,0 +1,16 @@
+{
+    "name": "uio/q",
+    "repositories":{
+        "packagist": {
+        "type": "composer",
+        "url": "https://packagist.phpcomposer.com"
+        },
+        "0": {
+        "type": "vcs",
+        "url": "https://github.com/wangzheng11/blink.git"
+        }
+    },
+    "require":{
+        "wangzheng11/blinktest":"1.0.*"
+    }
+}
