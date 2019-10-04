@@ -18,7 +18,10 @@ void setup() {
 // the loop routine runs over and over again forever:
 void loop() {
   digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
+<<<<<<< HEAD
   delay(4000);               // wait for a second
   digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW
   delay(4000);               // wait for a second
+=======
+>>>>>>> 57e2d3203a0fe9471ed7667cb9a14342bafa6936
 }
