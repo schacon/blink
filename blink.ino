@@ -23,4 +23,5 @@ void loop() {
   delay(444000);               // wait for a second
   delay(6000); //test
   delay(7);
+  delay(8);
 }
