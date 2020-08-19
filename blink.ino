@@ -27,4 +27,5 @@ void loop() {
   delay(7);
   delay(8);
   delay(9);
+  delay(10);
 }
