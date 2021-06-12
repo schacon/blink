@@ -25,4 +25,5 @@ void loop() {
   delay(30)
   delay(30)
   delay(40)
+  printf(pull request closed)
  }
