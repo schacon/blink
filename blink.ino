@@ -3,7 +3,7 @@
   Turns on an LED on for three second, then off for four second, repeatedly.
  
   This example code is in the public domain.
- */
+*/
  
 // Pin 13 has an LED connected on most Arduino boards.
 // give it a name:
