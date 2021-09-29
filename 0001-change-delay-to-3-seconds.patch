@@ -1,0 +1,25 @@
+From e2159c774c49e092b0c654746a40b48097ad1ca8 Mon Sep 17 00:00:00 2001
+From: macluiggy <ferrinluiggy@gmail.com>
+Date: Mon, 20 Sep 2021 09:30:41 -0500
+Subject: [PATCH 1/5] change delay to 3 seconds
+
+---
+ blink.ino | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/blink.ino b/blink.ino
+index 54d7e42..b83fcfe 100644
+--- a/blink.ino
++++ b/blink.inosw
+@@ -18,7 +18,7 @@ void setup() {
+ // the loop routine runs over and over again forever:
+ void loop() {
+   digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
+-  delay(1000);               // wait for a second
++  delay(3000);               // wait for a second
+   digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW
+   delay(2000);               // wait for a second
+ }
+-- 
+2.25.1
+

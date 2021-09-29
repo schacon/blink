@@ -1,0 +1,22 @@
+From 8f92349448e63bd33087e201b5650889981a399e Mon Sep 17 00:00:00 2001
+From: macluiggy <ferrinluiggy@gmail.com>
+Date: Wed, 22 Sep 2021 09:21:19 -0500
+Subject: [PATCH 4/5] removing unnecessary blank lines of code
+
+---
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/README.md b/README.md
+index 406e489..f609b59 100644
+--- a/README.md
++++ b/README.md
+@@ -1,3 +1,3 @@
+ # Blink
+ 
+-This repository has an example file to blink the LED on an Arduino board.
++This repository has an example file to blink the LED on an Arduino board.
+\ No newline at end of file
+-- 
+2.25.1
+
