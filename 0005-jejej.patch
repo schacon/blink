@@ -1,0 +1,26 @@
+From 10196af429a2ec51a13386e9e9a3e2825b58ae88 Mon Sep 17 00:00:00 2001
+From: macluiggy <ferrinluiggy@gmail.com>
+Date: Fri, 24 Sep 2021 09:39:27 -0500
+Subject: [PATCH 5/5] jejej
+
+---
+ blink.ino | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
+diff --git a/blink.ino b/blink.ino
+index 5ec6af1..3898937 100644
+--- a/blink.ino
++++ b/blink.ino
+@@ -21,6 +21,4 @@ void loop() {
+   delay(3000);               // wait for a second
+   digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW
+   delay(2000);               // wait for a second
+-}
+-
+-//hola
+\ No newline at end of file
++}
+\ No newline at end of file
+-- 
+2.25.1
+
