@@ -1,6 +1,6 @@
 /*
   Blink
-  Turns on an LED on for one second, then off for one second, repeatedly.
+  Turns on an LED on for three second, then off for three second, repeatedly.
  
   This example code is in the public domain.
  */
