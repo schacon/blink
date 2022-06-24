@@ -9,6 +9,11 @@
 // give it a name:
 int led = 13;
 
+// Set up value for delay.
+int delay_after_high = 3000;
+int delay_after_low = 3000;
+
+
 // the setup routine runs once when you press reset:
 void setup() {                
   // initialize the digital pin as an output.
@@ -18,7 +23,7 @@ void setup() {
 // the loop routine runs over and over again forever:
 void loop() {
   digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);               // wait for a second
+  delay(delay_after_high);               // wait for a second
   digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW
-  delay(2000);               // wait for a second
+  delay(delay_after_low);               // wait for a second
 }
