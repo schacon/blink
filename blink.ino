@@ -11,7 +11,7 @@ int led = 13;
 
 //Timeout for blinking
 int delay_after_high = 3000;
-int delay_after_low = 3000;
+int delay_after_low = 4000;
 
 // the setup routine runs once when you press reset:
 void setup() {                
