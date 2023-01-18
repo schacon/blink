@@ -22,4 +22,4 @@ void loop() {
   digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW
   delay(3000);               // wait three seconds
 }
-// тестирование перекрёстных ссылок
+// тестирование перекрёстных ссылок2
