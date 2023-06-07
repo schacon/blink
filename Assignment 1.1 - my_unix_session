@@ -1,852 +1,0 @@
-Script started on 2022-08-26 19:57:35+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="83" LINES="43"]
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania[00m$ ls
-[?2004l [0m[34;42mAnaconda3[0m
- [34;42mAppData[0m
-[01;36m'Application Data'[0m
- [34;42mContacts[0m
- [01;36mCookies[0m
- [34;42mDesktop[0m
- [34;42mDocuments[0m
- [34;42mDownloads[0m
- [34;42mFavorites[0m
- [34;42mIntelGraphicsProfiles[0m
- [34;42mLinks[0m
-[01;36m'Local Settings'[0m
- [34;42mMusic[0m
-[01;36m'My Documents'[0m
- [01;32mNTUSER.DAT[0m
- [01;32mNTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TM.blf[0m
- [01;32mNTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer00000000000000000001.regtrans-ms[0m[K
- [01;32mNTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer00000000000000000002.regtrans-ms[0m[K
- [01;36mNetHood[0m
- [34;42mOneDrive[0m
- [34;42mPictures[0m
- [01;36mPrintHood[0m
- [01;36mRecent[0m
-[34;42m'Saved Games'[0m
- [34;42mSearches[0m
- [01;36mSendTo[0m
-[01;36m'Start Menu'[0m
- [01;36mTemplates[0m
- [34;42mVideos[0m
- [01;32mmy_unix_session[0m
- [01;32mntuser.dat.LOG1[0m
- [01;32mntuser.dat.LOG2[0m
- [01;32mntuser.ini[0m
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania[00m$ pwd
-[?2004l/mnt/c/Users/vinod.subramania
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania[00m$ ls
-[?2004l [0m[34;42mAnaconda3[0m
- [34;42mAppData[0m
-[01;36m'Application Data'[0m
- [34;42mContacts[0m
- [01;36mCookies[0m
- [34;42mDesktop[0m
- [34;42mDocuments[0m
- [34;42mDownloads[0m
- [34;42mFavorites[0m
- [34;42mIntelGraphicsProfiles[0m
- [34;42mLinks[0m
-[01;36m'Local Settings'[0m
- [34;42mMusic[0m
-[01;36m'My Documents'[0m
- [01;32mNTUSER.DAT[0m
- [01;32mNTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TM.blf[0m
- [01;32mNTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer00000000000000000001.regtrans-ms[0m[K
- [01;32mNTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer00000000000000000002.regtrans-ms[0m[K
- [01;36mNetHood[0m
- [34;42mOneDrive[0m
- [34;42mPictures[0m
- [01;36mPrintHood[0m
- [01;36mRecent[0m
-[34;42m'Saved Games'[0m
- [34;42mSearches[0m
- [01;36mSendTo[0m
-[01;36m'Start Menu'[0m
- [01;36mTemplates[0m
- [34;42mVideos[0m
- [01;32mmy_unix_session[0m
- [01;32mntuser.dat.LOG1[0m
- [01;32mntuser.dat.LOG2[0m
- [01;32mntuser.ini[0m
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania[00m$ ls -F
-[?2004l [0m[34;42mAnaconda3[0m/
- [34;42mAppData[0m/
-[01;36m'Application Data'[0m@
- [34;42mContacts[0m/
- [01;36mCookies[0m@
- [34;42mDesktop[0m/
- [34;42mDocuments[0m/
- [34;42mDownloads[0m/
- [34;42mFavorites[0m/
- [34;42mIntelGraphicsProfiles[0m/
- [34;42mLinks[0m/
-[01;36m'Local Settings'[0m@
- [34;42mMusic[0m/
-[01;36m'My Documents'[0m@
- [01;32mNTUSER.DAT[0m*
- [01;32mNTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TM.blf[0m*
- [01;32mNTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer00000000000000000001.regtrans-ms[0m[K*
- [01;32mNTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer00000000000000000002.regtrans-ms[0m[K*
- [01;36mNetHood[0m@
- [34;42mOneDrive[0m/
- [34;42mPictures[0m/
- [01;36mPrintHood[0m@
- [01;36mRecent[0m@
-[34;42m'Saved Games'[0m/
- [34;42mSearches[0m/
- [01;36mSendTo[0m@
-[01;36m'Start Menu'[0m@
- [01;36mTemplates[0m@
- [34;42mVideos[0m/
- [01;32mmy_unix_session[0m*
- [01;32mntuser.dat.LOG1[0m*
- [01;32mntuser.dat.LOG2[0m*
- [01;32mntuser.ini[0m*
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania[00m$ ls --help
-[?2004lUsage: ls [OPTION]... [FILE]...
-List information about the FILEs (the current directory by default).
-Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
-
-Mandatory arguments to long options are mandatory for short options too.
-  -a, --all                  do not ignore entries starting with .
-  -A, --almost-all           do not list implied . and ..
-      --author               with -l, print the author of each file
-  -b, --escape               print C-style escapes for nongraphic characters
-      --block-size=SIZE      with -l, scale sizes by SIZE when printing them;
-                               e.g., '--block-size=M'; see SIZE format below
-  -B, --ignore-backups       do not list implied entries ending with ~
-  -c                         with -lt: sort by, and show, ctime (time of last
-                               modification of file status information);
-                               with -l: show ctime and sort by name;
-                               otherwise: sort by ctime, newest first
-  -C                         list entries by columns
-      --color[=WHEN]         colorize the output; WHEN can be 'always' (default
-                               if omitted), 'auto', or 'never'; more info below
-  -d, --directory            list directories themselves, not their contents
-  -D, --dired                generate output designed for Emacs' dired mode
-  -f                         do not sort, enable -aU, disable -ls --color
-  -F, --classify             append indicator (one of */=>@|) to entries
-      --file-type            likewise, except do not append '*'
-      --format=WORD          across -x, commas -m, horizontal -x, long -l,
-                               single-column -1, verbose -l, vertical -C
-      --full-time            like -l --time-style=full-iso
-  -g                         like -l, but do not list owner
-      --group-directories-first
-                             group directories before files;
-                               can be augmented with a --sort option, but any
-                               use of --sort=none (-U) disables grouping
-  -G, --no-group             in a long listing, don't print group names
-  -h, --human-readable       with -l and -s, print sizes like 1K 234M 2G etc.
-      --si                   likewise, but use powers of 1000 not 1024
-  -H, --dereference-command-line
-                             follow symbolic links listed on the command line
-      --dereference-command-line-symlink-to-dir
-                             follow each command line symbolic link
-                               that points to a directory
-      --hide=PATTERN         do not list implied entries matching shell PATTERN
-                               (overridden by -a or -A)
-      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'
-                               (default if omitted), 'auto', or 'never'
-      --indicator-style=WORD  append indicator with style WORD to entry names:
-                               none (default), slash (-p),
-                               file-type (--file-type), classify (-F)
-  -i, --inode                print the index number of each file
-  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
-  -k, --kibibytes            default to 1024-byte blocks for disk usage;
-                               used only with -s and per directory totals
-  -l                         use a long listing format
-  -L, --dereference          when showing file information for a symbolic
-                               link, show information for the file the link
-                               references rather than for the link itself
-  -m                         fill width with a comma separated list of entries
-  -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
-  -N, --literal              print entry names without quoting
-  -o                         like -l, but do not list group information
-  -p, --indicator-style=slash
-                             append / indicator to directories
-  -q, --hide-control-chars   print ? instead of nongraphic characters
-      --show-control-chars   show nongraphic characters as-is (the default,
-                               unless program is 'ls' and output is a terminal)
-  -Q, --quote-name           enclose entry names in double quotes
-      --quoting-style=WORD   use quoting style WORD for entry names:
-                               literal, locale, shell, shell-always,
-                               shell-escape, shell-escape-always, c, escape
-                               (overrides QUOTING_STYLE environment variable)
-  -r, --reverse              reverse order while sorting
-  -R, --recursive            list subdirectories recursively
-  -s, --size                 print the allocated size of each file, in blocks
-  -S                         sort by file size, largest first
-      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
-                               time (-t), version (-v), extension (-X)
-      --time=WORD            change the default of using modification times;
-                               access time (-u): atime, access, use;
-                               change time (-c): ctime, status;
-                               birth time: birth, creation;
-                             with -l, WORD determines which time to show;
-                             with --sort=time, sort by WORD (newest first)
-      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below
-  -t                         sort by time, newest first; see --time
-  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
-  -u                         with -lt: sort by, and show, access time;
-                               with -l: show access time and sort by name;
-                               otherwise: sort by access time, newest first
-  -U                         do not sort; list entries in directory order
-  -v                         natural sort of (version) numbers within text
-  -w, --width=COLS           set output width to COLS.  0 means no limit
-  -x                         list entries by lines instead of by columns
-  -X                         sort alphabetically by entry extension
-  -Z, --context              print any security context of each file
-  -1                         list one file per line.  Avoid '\n' with -q or -b
-      --help     display this help and exit
-      --version  output version information and exit
-
-The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
-Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
-Binary prefixes can be used, too: KiB=K, MiB=M, and so on.
-
-The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or +FORMAT.
-FORMAT is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2,
-then FORMAT1 applies to non-recent files and FORMAT2 to recent files.
-TIME_STYLE prefixed with 'posix-' takes effect only outside the POSIX locale.
-Also the TIME_STYLE environment variable sets the default style to use.
-
-Using color to distinguish file types is disabled both by default and
-with --color=never.  With --color=auto, ls emits color codes only when
-standard output is connected to a terminal.  The LS_COLORS environment
-variable can change the settings.  Use the dircolors command to set it.
-
-Exit status:
- 0  if OK,
- 1  if minor problems (e.g., cannot access subdirectory),
- 2  if serious trouble (e.g., cannot access command-line argument).
-
-GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
-Report any translation bugs to <https://translationproject.org/team/>
-Full documentation <https://www.gnu.org/software/coreutils/ls>
-or available locally via: info '(coreutils) ls invocation'
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania[00m$ man ls
-[?2004l[?1049h[22;0;0t[?1h=LS(1)                             User Commands                            LS(1)[m
-[m
-[1mNAME[0m[m
-       ls - list directory contents[m
-[m
-[1mSYNOPSIS[0m[m
-       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
-[m
-[1mDESCRIPTION[0m[m
-       List  information  about  the  FILEs  (the current directory by default).[m
-       Sort entries alphabetically if none of [1m-cftuvSUX[0m nor [1m--sort[0m is specified.[m
-[m
-       Mandatory arguments to long options are mandatory for short options too.[m
-[m
-       [1m-a[0m, [1m--all[0m[m
-              do not ignore entries starting with .[m
-[m
-       [1m-A[0m, [1m--almost-all[0m[m
-              do not list implied . and ..[m
-[m
-       [1m--author[0m[m
-              with [1m-l[0m, print the author of each file[m
-[m
-       [1m-b[0m, [1m--escape[0m[m
-              print C-style escapes for nongraphic characters[m
-[m
-       [1m--block-size[0m=[4mSIZE[24m[m
-              with  [1m-l[0m,  scale  sizes  by  SIZE  when   printing   them;   e.g.,[m
-              '--block-size=M'; see SIZE format below[m
-[m
-       [1m-B[0m, [1m--ignore-backups[0m[m
-              do not list implied entries ending with ~[m
-[m
-       [1m-c[0m     with  [1m-lt[0m:  sort by, and show, ctime (time of last modification of[m
-              file status information); with [1m-l[0m: show ctime and  sort  by  name;[m
-              otherwise: sort by ctime, newest first[m
-[m
-       [1m-C[0m     list entries by columns[m
-[m
-       [1m--color[0m[=[4mWHEN[24m][m
-              colorize  the  output;  WHEN can be 'always' (default if omitted),[m
-              'auto', or 'never'; more info below[m
-[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania[00m$ ls -F Desktop
-[?2004l [0m[01;32mGmail.lnk[0m*  [01;32m'Vinod - Chrome.lnk'[0m*   [34;42mlearning[0m/
- [01;32mUdemy.lnk[0m*   [01;32mdesktop.ini[0m*           [34;42mshell-lesson-data[0m/
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania[00m$ ls -F Desktop/shell-lesson-data/
-[?2004l[0m[34;42mexercise-data[0m/  [34;42mnorth-pacific-gyre[0m/
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania[00m$ cd de[K[KDesktop/
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop[00m$ cd shell-lesson-data/
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[00m$ cd  exercise-data/
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ pwd
-[?2004l/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ ls -F
-[?2004l[0m[34;42manimal-counts[0m/  [34;42mcreatures[0m/  [01;32mnumbers.txt[0m*  [34;42mproteins[0m/  [34;42mwriting[0m/
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ cd [K[K[Kcd ..
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[00m$ pw d
-[?2004l/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[00m$ ls  -F 0a[K[K-a
-[?2004l[0m[34;42m.[0m/  [34;42m..[0m/  [34;42mexercise-data[0m/  [34;42mnorth-pacific-gyre[0m/
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[00m$ cd  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kd
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: ~[01;32mvinod@TIGER02097[00m:[01;34m~[00m$ pwd
-[?2004l/home/vinod
-[?2004h(base) ]0;vinod@TIGER02097: ~[01;32mvinod@TIGER02097[00m:[01;34m~[00m$ cd :/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-d ata/exercise-data/
-[?2004lbash: cd: :/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/: No such file or directory
-[?2004h(base) ]0;vinod@TIGER02097: ~[01;32mvinod@TIGER02097[00m:[01;34m~[00m$ cd :/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-dat[1Pa/exercise-data/[A(base) ]0;vinod@TIGER02097: ~[01;32mvinod@TIGER02097[00m:[01;34m~[00m$ [C[C[C
-
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ pwd
-[?2004l/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ cd /mn[K[K[K:/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[1P/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[00m$ cd  exercise-data/creatures/
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[00m$ cd -
-[?2004l/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[00m$ ls  -F /
-[?2004l[0m[01;36mbin[0m@   [01;34metc[0m/   [01;36mlib[0m@    [01;36mlibx32[0m@      [01;34mmnt[0m/   [01;34mroot[0m/  [01;34msnap[0m/  [30;42mtmp[0m/
-[01;34mboot[0m/  [01;34mhome[0m/  [01;36mlib32[0m@  [01;34mlost+found[0m/  [01;34mopt[0m/   [01;34mrun[0m/   [01;34msrv[0m/   [01;34musr[0m/
-[01;34mdev[0m/   [01;32minit[0m*  [01;36mlib64[0m@  [01;34mmedia[0m/       [01;34mproc[0m/  [01;36msbin[0m@  [01;34msys[0m/   [01;34mvar[0m/
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[00m$ ls  -S exercise-data/
-[?2004l[0m[34;42manimal-counts[0m  [34;42mcreatures[0m  [34;42mproteins[0m  [34;42mwriting[0m  [01;32mnumbers.txt[0m
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[00m$ ls  -F /
-[?2004l[0m[01;36mbin[0m@   [01;34metc[0m/   [01;36mlib[0m@    [01;36mlibx32[0m@      [01;34mmnt[0m/   [01;34mroot[0m/  [01;34msnap[0m/  [30;42mtmp[0m/
-[01;34mboot[0m/  [01;34mhome[0m/  [01;36mlib32[0m@  [01;34mlost+found[0m/  [01;34mopt[0m/   [01;34mrun[0m/   [01;34msrv[0m/   [01;34musr[0m/
-[01;34mdev[0m/   [01;32minit[0m*  [01;36mlib64[0m@  [01;34mmedia[0m/       [01;34mproc[0m/  [01;36msbin[0m@  [01;34msys[0m/   [01;34mvar[0m/
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[00m$ ls  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcd  exercise-data/
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ ls no[K[K[K
-[?2004l[0m[34;42manimal-counts[0m  [34;42mcreatures[0m  [01;32mnumbers.txt[0m  [34;42mproteins[0m  [34;42mwriting[0m
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ cd ..
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[00m$ pw d
-[?2004l/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data[00m$ cd  exercise-data/writing/
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ ls -F
-[?2004l[0m[01;32mLittleWomen.txt[0m*  [01;32mhaiku.txt[0m*
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ md[Kkdir thesis
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ ls -F
-[?2004l[0m[01;32mLittleWomen.txt[0m*  [01;32mhaiku.txt[0m*  [34;42mthesis[0m/
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ ls -F thesis/
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ cd thesis/
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing/thesis[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing/thesis[00m$ nano draft.txt
-[?2004l[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;36H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                         draft.txt                                   [1;82H(B[m[42d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;50H(B[0;7m*[82G(B[m[?12l[?25h[2dh[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[42;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m Browse[K[41d(B[0;7mFile Name to Write: draft.txt                                                      [41;30H(B[m[?12l[?25h[?25l[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;50H(B[0;7m [82G(B[m[41;34H(B[0;7m[ Wrote 1 line ](B[m[42;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[?12l[?25h[2;6H[?25l[41d[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing/thesis[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing/thesis[00m$ ls
-[?2004l[0m[01;32mdraft.txt[0m
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing/thesis[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing/thesis[00m$ cd /mnt/U[Kc/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing/
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ mv thesis/draft.txt  thesis/quotes.txt
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ ls thesis/
-[?2004l[0m[01;32mquotes.txt[0m
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ mv thesis/quotes.txt  .
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ ls thesis/
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ la[Ks quotes.txt 
-[?2004l[0m[01;32mquotes.txt[0m
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ ls -F
-[?2004l[0m[01;32mLittleWomen.txt[0m*  [01;32mhaiku.txt[0m*  [01;32mquotes.txt[0m*  [34;42mthesis[0m/
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ ;ss[K[K[Kcp quotes.txt  thesis/quotattions[K[K[K[K[Kions.txt
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ cp quotes.txt  thesis/quotations.txt[C[C[1P[1P[1@l[1@s
-[?2004l[0m[01;32mquotes.txt[0m  [01;32mthesis/quotations.txt[0m
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ cp -r thess[Kis thesis_backup
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ ls thesis thesis_backup/
-[?2004lthesis:
-[0m[01;32mquotations.txt[0m
-
-thesis_backup/:
-[01;32mquotations.txt[0m
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ rm quotes.txt 
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ ls quotes.txt
-[?2004lls: cannot access 'quotes.txt': No such file or directory
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ rm thesis
-[?2004lrm: cannot remove 'thesis': Is a directory
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ rm -r te[Khesis
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ mkdir bacjup[K[K[Kkup
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ cp cre[K[K[K[K[K[Kls ..[K[K[K[K[Kcd ..
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ ls
-[?2004l[0m[34;42manimal-counts[0m  [34;42mcreatures[0m  [01;32mnumbers.txt[0m  [34;42mproteins[0m  [34;42mwriting[0m
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ cd proteins/
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ wc cubane.pdb 
-[?2004l  20  156 1158 cubane.pdb
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ wc *.pdb
-[?2004l  20  156 1158 cubane.pdb
-  12   84  622 ethane.pdb
-   9   57  422 methane.pdb
-  30  246 1828 octane.pdb
-  21  165 1226 pentane.pdb
-  15  111  825 propane.pdb
- 107  819 6081 total
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ wc -l */[K.pdb
-[?2004l  20 cubane.pdb
-  12 ethane.pdb
-   9 methane.pdb
-  30 octane.pdb
-  21 pentane.pdb
-  15 propane.pdb
- 107 total
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ wc -l
-[?2004l^[[B^[[B^[[A^[[A                ^C
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ wc i[K-l
-[?2004l^C
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ wc -l *.pdb > lengthd[Ks.txt
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ ls
-[?2004l[0m[01;32mcubane.pdb[0m  [01;32mlengths.txt[0m  [01;32moctane.pdb[0m   [01;32mpropane.pdb[0m
-[01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32mpentane.pdb[0m
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ ls lengths.txt 
-[?2004l[0m[01;32mlengths.txt[0m
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ cat lengths.txt 
-[?2004l  20 cubane.pdb
-  12 ethane.pdb
-   9 methane.pdb
-  30 octane.pdb
-  21 pentane.pdb
-  15 propane.pdb
- 107 total
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ sort -n lengths.txt 
-[?2004l   9 methane.pdb
-  12 ethane.pdb
-  15 propane.pdb
-  20 cubane.pdb
-  21 pentane.pdb
-  30 octane.pdb
- 107 total
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ sort -n lengths.txt  > sro[K[Kro[K[Korted [K_[K-lengthd[Ks.txt
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ heda[K[Kad -n 1 sorted-lengths.txt 
-[?2004l   9 methane.pdb
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ sort -n lengths.txt  > lengths.txt 
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ echo th e[K[K[K[KThe excho [K[K[K[K[Kcho ci[Kpm[K[Kommands prints text
-[?2004lThe echo commands prints text
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ echo helo[Klo>[K > testfile01.txt
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ echo hello > testfile01.txt[1P.txt2.txt> testfile02.txt
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ echo hello >> testfile02.txt
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ cd ..
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ cd animal-counts/
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/animal-counts[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/animal-counts[00m$ head -n 3 a i[K[Knimals.csv > animals.csv [K[K[K[K[K-subset.csv
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/animal-counts[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/animal-counts[00m$ tail -n 2 anuma[K[K[Kimals.csv >> animals-subset.csv
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/animal-counts[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/animal-counts[00m$ sort -n leb[Kn[K[K[K[K[K[K[K[K[K[K[Kcd ..
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ cd proteins/
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ sort -n lengths.txt  | head -n 1
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ ls
-[?2004l[0m[01;32mcubane.pdb[0m  [01;32mlengths.txt[0m  [01;32moctane.pdb[0m   [01;32mpropane.pdb[0m         [01;32mtestfile01.txt[0m
-[01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32mpentane.pdb[0m  [01;32msorted-lengths.txt[0m  [01;32mtestfile02.txt[0m
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ wc -l *.pb[Kdb | sort -n
-[?2004l   9 methane.pdb
-  12 ethane.pdb
-  15 propane.pdb
-  20 cubane.pdb
-  21 pentane.pdb
-  30 octane.pdb
- 107 total
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ wc -l *.pdb | sort -n | head -n 1
-[?2004l   9 methane.pdb
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ cd ..
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ ls
-[?2004l[0m[34;42manimal-counts[0m  [34;42mcreatures[0m  [01;32mnumbers.txt[0m  [34;42mproteins[0m  [34;42mwriting[0m
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ cd creatures/
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[00m$ head -n 5 basilisk.dat monitor[K[Kar[Kur.da [Kt unicorn.dat 
-[?2004l==> basilisk.dat <==
-COMMON NAME: basilisk
-CLASSIFICATION: basiliscus vulgaris
-UPDATED: 1745-05-02
-CCCCAACGAG
-GAAACAGATC
-head: cannot open 'monitaur.dat' for reading: No such file or directory
-
-==> unicorn.dat <==
-COMMON NAME: unicorn
-CLASSIFICATION: equus monoceros
-UPDATED: 1738-11-24
-AGCCGGGTCG
-CTTTACCTTA
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[00m$ for thing in lk[Kist_og[Kf_things
-[?2004l[?2004h> do
-[?2004l[?2004h> ^C[?2004l[?2004h^C[?2004l[?2004h^C[?2004l[?2004h^C[?2004l[?2004h[?2004l
-
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[00m$ xit
-[?2004lCommand 'xit' not found, did you mean:
-  command 'git' from deb git (1:2.34.1-1ubuntu1.4)
-  command 'xwit' from deb xwit (3.4-16)
-  command 'wit' from deb wit (3.01a-4)
-  command 'xir' from deb libxir-utils (1.4-2ubuntu1)
-  command 'vit' from deb vit (2.1.0-2)
-Try: sudo apt install <deb name>
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[00m$ done
-[?2004lbash: syntax error near unexpected token `done'
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[00m$ dkfdkfkfdsnfsdkfhskdfs;;;;;''''ex[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7mdkfdkfkfdsnfsdkfhskdfs;;;;;''''ex[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdkfdkfkfdsnfsdkfhskdfs;;;;;''''ex[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7mdkfdkfkfdsnfsdkfhskdfs;;;;;''''ex[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pkfdkfkfdsnfsdkfhskdfs;;;;;''''ex[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kfor ti[Khing in lis_of)[K_things
-[?2004l[?2004h> do
-[?2004l[?2004h> operation using $thing
-[?2004l[?2004h> done
-[?2004loperation: command not found
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[00m$ for filename in basilisk.dat minotaur.dat unicorn.dat 
-[?2004l[?2004h> do
-[?2004l[?2004h> head -n 2 $filename | tail -n 1
-[?2004l[?2004h> doe[Kne
-[?2004lCLASSIFICATION: basiliscus vulgaris
-CLASSIFICATION: bos hominus
-CLASSIFICATION: equus monoceros
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[00m$ for x in basilisk.dat  minotaur.dat unicorn.dat 
-[?2004l[?2004h> do
-[?2004l[?2004h> head -n 2 $x| tail -n 1
-[?2004l[?2004h> done
-[?2004lCLASSIFICATION: basiliscus vulgaris
-CLASSIFICATION: bos hominus
-CLASSIFICATION: equus monoceros
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[00m$ cd ..
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ cd proteins/
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ for filename in *c*
-[?2004l[?2004h> do ls[K[K[K[K
-[?2004lbash: syntax error near unexpected token `d'
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ for filename in *c*; d
-[?2004lbash: syntax error near unexpected token `d'
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ for filename in *c*; d[K[K[K
-[?2004l[?2004h> do
-[?2004l[?2004h> ls $filename
-[?2004l[?2004h> done
-[?2004l[0m[01;32mcubane.pdb[0m
-[0m[01;32moctane.pdb[0m
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ for alkanes in *.pdb
-[?2004l[?2004h> do
-[?2004l[?2004h> echo $alkanes
-[?2004l[?2004h> cat $alkanes > alkanes.pdb
-[?2004l[?2004h> done
-[?2004lcubane.pdb
-ethane.pdb
-methane.pdb
-octane.pdb
-pentane.pdb
-propane.pdb
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ for datafile in *.pdb
-[?2004l[?2004h> do
-[?2004l[?2004h> cat $datafile>[K >> all.pdb
-[?2004l[?2004h> done
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ cd she[K[K[K/mnt/[K[K[K[K[K..
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ cd creatures/
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[00m$ cp *.dat original-*.daty[K
-[?2004lcp: target 'original-*.dat' is not a directory
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[00m$ ls
-[?2004l[0m[01;32mbasilisk.dat[0m  [01;32mminotaur.dat[0m  [01;32municorn.dat[0m
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[00m$ cp basilisk.dat  minotaur.dat  unicorn.dat  original-*.dat
-[?2004lcp: target 'original-*.dat' is not a directory
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/creatures[00m$ cd ..
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ cd proteins/
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ nano mi[K[K[K[K[K[K[Knano middle.sh
-[?2004l[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;36H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                         middle.sh                                   [1;82H(B[m[42d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;50H(B[0;7m*[82G(B[m[?12l[?25h[2dh[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[42;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m Browse[K[41d(B[0;7mFile Name to Write: middle.sh                                                      [41;30H(B[m[?12l[?25h[?25l[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;50H(B[0;7m [82G(B[m[41;34H(B[0;7m[ Wrote 1 line ](B[m[42;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[?12l[?25h[2;6H[?25l[41d[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ bashb[K middle.sh
-[?2004lmiddle.sh: line 1: hello: command not found
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ nano middle.sh 
-[?2004l[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;41H(B[0;7m 1 line ](B[m[H(B[0;7m  GNU nano 6.2                         middle.sh                                   [1;82H(B[m[42d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2dhello[?12l[?25h[?25l[1;50H(B[0;7m*[82G(B[m[?12l[?25h[2dhhelloh[?25l[?12l[?25hehellohe[?25l[?12l[?25hahellohea[?25l[?12l[?25hdhello[5G[?25l[?12l[?25hh[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25h[3d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[2;10H[?25l[41d[K[?12l[?25h[2;9H [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h(B[0;1m[34mhead[39m(B[m[K[?25l[?12l[?25hhea[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25hh[?25l[?12l[?25he[?25l[?12l[?25ha[?25l[?12l[?25h(B[0;1m[34mhead[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h 1[?25l[?12l[?25h5[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h o[?25l[?12l[?25hc[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25he[?25l[?12l[?25h.[?25l[?12l[?25hp[?25l[?12l[?25hd[?25l[?12l[?25hb[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m|[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h t[?25l[?12l[?25ha[?25l[?12l[?25hi[?25l[?12l[?25h(B[0;1m[34mtail[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h 5[?25l[42;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m Browse[K[41d(B[0;7mFile Name to Write: middle.sh                                                      [41;30H(B[m[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;50H(B[0;7m [82G(B[m[41;34H(B[0;7m[ Wrote 1 line ](B[m[42;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[?12l[?25h[2;34H[?25l[41d[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ nano middle.sh [1Pbash middle.sh
-[?2004lATOM      9  H           1      -4.502   0.681   0.785  1.00  0.00
-ATOM     10  H           1      -5.254  -0.243  -0.537  1.00  0.00
-ATOM     11  H           1      -4.357   1.252  -0.895  1.00  0.00
-ATOM     12  H           1      -3.009  -0.741  -1.467  1.00  0.00
-ATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ bash middle.shnano middle.sh 
-[?2004l[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;41H(B[0;7m 1 line ](B[m[H(B[0;7m  GNU nano 6.2                         middle.sh                                   [1;82H(B[m[42d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d(B[0;1m[34mhead[35m -n[39m(B[m 15 octane.pdb [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h1[?25l[?12l[?25h5[?25l[?12l[?25h [?25l[?12l[?25ho[?25l[?12l[?25hc[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25he[?25l[?12l[?25h.[?25l[?12l[?25hp[?25l[41d[K[?12l[?25h[2;21H[?25l[?12l[?25hb[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h5[?25l[?12l[?25h[3d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[2;34H[?25l[1;50H(B[0;7m*[82G(B[m[?12l[?25h[2;32H[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h -[K[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25htai[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h -[K[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25hhea[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[34mhead[35m -n[39m(B[m 15 (B[0;1m[33m"$1"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[?25l[42;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m Browse[K[41d(B[0;7mFile Name to Write: middle.sh                                                      [41;30H(B[m[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;50H(B[0;7m [82G(B[m[41;34H(B[0;7m[ Wrote 1 line ](B[m[42;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[?12l[?25h[2;28H[?25l[41d[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ nano middle.sh [1Pbash middle.sh
-[?2004lhead: cannot open '' for reading: No such file or directory
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ bash middle.shnano middle.sh 
-[?2004l[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;41H(B[0;7m 1 line ](B[m[H(B[0;7m  GNU nano 6.2                         middle.sh                                   [1;82H(B[m[42d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d(B[0;1m[34mhead[35m -n[39m(B[m 15 (B[0;1m[33m"$1"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h1[?25l[?12l[?25h5[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[41d[K[?12l[?25h[2;21H[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h5[?25l[?12l[?25h[3d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[2;28H[?25l[42;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m Browse[K[41d(B[0;7mFile Name to Write: middle.sh                                                      [41;30H(B[m[?12l[?25h[?25l[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;82H[41;34H(B[0;7m[ Wrote 1 line ](B[m[42;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[?12l[?25h[2;28H[?25l[41d[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ nano middle.sh [1Pbash middle.sh
-[?2004lhead: cannot open '' for reading: No such file or directory
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ [Abash middle.shnano middle.sh 
-[?2004l[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;41H(B[0;7m 1 line ](B[m[H(B[0;7m  GNU nano 6.2                         middle.sh                                   [1;82H(B[m[42d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d(B[0;1m[34mhead[35m -n[39m(B[m 15 (B[0;1m[33m"$1"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h1[?25l[?12l[?25h5[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[41d[K[?12l[?25h[2;21H[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h5[?25l[?12l[?25h[3d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[2;28H[?25l[42;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m Browse[K[41d(B[0;7mFile Name to Write: middle.sh                                                      [41;30H(B[m[?12l[?25h[?25l[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;82H[41;34H(B[0;7m[ Wrote 1 line ](B[m[42;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[?12l[?25h[2;28H[?25l[41d[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ nano middle.sh [Knano middle.sh [1Pbash middle.sh
-[?2004lhead: cannot open '' for reading: No such file or directory
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ nano middle.sh 
-[?2004l[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;41H(B[0;7m 1 line ](B[m[H(B[0;7m  GNU nano 6.2                         middle.sh                                   [1;82H(B[m[42d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d(B[0;1m[34mhead[35m -n[39m(B[m 15 (B[0;1m[33m"$1"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h1[?25l[?12l[?25h5[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[41d[K[?12l[?25h[2;21H[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h5[?25l[?12l[?25h[3d[?25l[?12l[?25h[?25l[?12l[?25h[2;28H[?25l[1;50H(B[0;7m*[82G(B[m[?12l[?25h[2;26H[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h -[K[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25htai[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h"(B[0;1m[31m$1[39m(B[m[K[?25l[?12l[?25h[32m$[39m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h -[K[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25hhea[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hh[?25l[?12l[?25he[?25l[?12l[?25ha[?25l[?12l[?25h(B[0;1m[34mhead[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h2[?25l[?12l[?25h(B[0;1m[33m"2"[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33m$"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33m$2"[39m(B[m[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h[32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$1[39m(B[m[?25l[?12l[?25h(B[0;1m[33m"$1"[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m|[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h t[?25l[?12l[?25ha[?25l[?12l[?25hi[?25l[?12l[?25h(B[0;1m[34mtail[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h[32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$3[39m(B[m[?25l[?12l[?25h#[?25l[?12l[?25h [?25l[?12l[?25h(B[0;1m[33m"$3"[39m(B[m[?25l[42;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m Browse[K[41d(B[0;7mFile Name to Write: middle.sh                                                      [41;30H(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;50H(B[0;7m [82G(B[m[41;34H(B[0;7m[ Wrote 1 line ](B[m[42;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[?12l[?25h[2;33H[?25l[41d[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ nano middle.sh [1Pbash middle.sh
-[?2004lhead: invalid number of lines: ‘’
-tail: invalid number of lines: ‘’
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ bash middle.shnano middle.sh 
-[?2004l[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;41H(B[0;7m 1 line ](B[m[H(B[0;7m  GNU nano 6.2                         middle.sh                                   [1;82H(B[m[42d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d(B[0;1m[34mhead[35m -n[39m(B[m (B[0;1m[33m"$2"[39m(B[m (B[0;1m[33m"$1"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m (B[0;1m[33m"$3"[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[41d[K[?12l[?25h[2;20H[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[3d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[2;33H[?25l[42d[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ nano middle.sh 
-[?2004l[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;41H(B[0;7m 1 line ](B[m[H(B[0;7m  GNU nano 6.2                         middle.sh                                   [1;82H(B[m[42d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d(B[0;1m[34mhead[35m -n[39m(B[m (B[0;1m[33m"$2"[39m(B[m (B[0;1m[33m"$1"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m (B[0;1m[33m"$3"[39m(B[m[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[41d[K[?12l[?25h[2;17H[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[3d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[2;33H[?25l[1;50H(B[0;7m*[82G(B[m[?12l[?25h[2;29H"(B[0;1m[31m$3[39m(B[m[K[?25l[?12l[?25h[32m$[39m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h -[K[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25htai[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h"(B[0;1m[31m$1[39m(B[m[K[?25l[?12l[?25h[32m$[39m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h"(B[0;1m[31m$2[39m(B[m[K[?25l[?12l[?25h[32m$[39m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h -[K[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25hhea[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hh[?25l[?12l[?25he[?25l[?12l[?25ha[?25l[?12l[?25h(B[0;1m[34mhead[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h[32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$2[39m(B[m[?25l[?12l[?25h(B[0;1m[33m"$2"[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h[32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$1[39m(B[m[?25l[?12l[?25h(B[0;1m[33m"$1"[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m|[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h t[?25l[?12l[?25ha[?25l[?12l[?25hi[?25l[?12l[?25h(B[0;1m[34mtail[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h[32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$3[39m(B[m[?25l[?12l[?25h(B[0;1m[33m"$3"[39m(B[m[?25l[42;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m Browse[K[41d(B[0;7mFile Name to Write: middle.sh                                                      [41;30H(B[m[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;50H(B[0;7m [82G(B[m[41;34H(B[0;7m[ Wrote 1 line ](B[m[42;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[?12l[?25h[2;33H[?25l[41d[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ nano middle.sh [1Pbash middle.sh
-[?2004ltail: head: invalid number of lines: ‘’invalid number of lines: ‘’
-
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ bash middle.sh pentane.pdb 15 5
-[?2004lATOM      9  H           1       1.324   0.350  -1.332  1.00  0.00
-ATOM     10  H           1       1.271   1.378   0.122  1.00  0.00
-ATOM     11  H           1      -0.074  -0.384   1.288  1.00  0.00
-ATOM     12  H           1      -0.048  -1.362  -0.205  1.00  0.00
-ATOM     13  H           1      -1.183   0.500  -1.412  1.00  0.00
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ bash middle.sh pentane.pdb 15 5[K[K[K[K20 5
-[?2004lATOM     14  H           1      -1.259   1.420   0.112  1.00  0.00
-ATOM     15  H           1      -2.608  -0.407   1.130  1.00  0.00
-ATOM     16  H           1      -2.540  -1.303  -0.404  1.00  0.00
-ATOM     17  H           1      -3.393   0.254  -0.321  1.00  0.00
-TER      18              1
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ nano middle.sh 
-[?2004l[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;35H(B[0;7m[ Reading... ](B[m[41;41H(B[0;7m 1 line ](B[m[H(B[0;7m  GNU nano 6.2                         middle.sh                                   [1;82H(B[m[42d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d(B[0;1m[34mhead[35m -n[39m(B[m (B[0;1m[33m"$2"[39m(B[m (B[0;1m[33m"$1"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m (B[0;1m[33m"$3"[39m(B[m[?12l[?25h[?25l[1;50H(B[0;7m*[82G(B[m7[2;40r8[2dM[1;43r[3;1H[?12l[?25h[?25l[2;40r[40;1H
-[1;43r[2;1H[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[41d[K[?12l[?25h[2;19H[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[3d[?25l[?12l[?25h[36m# Select lines[39m(B[m[?25l[?12l[?25h[36m from th[39m(B[m[?25l[?12l[?25h[36me middle[39m(B[m[?25l[?12l[?25h[36m of a fi[39m(B[m[?25l[36mle.[4d[39m(B[m[?12l[?25h[36m# U[39m(B[m[?25l[?12l[?25h[36msage: bash mid[39m(B[m[?25l[?12l[?25h[36mdle.sh f[39m(B[m[?25l[?12l[?25h[36milename[39m[42m [49m(B[m[?25l[?12l[?25h[36m end_line num_l[39m(B[m[?25l[?12l[?25h[36mines[39m(B[m[?25l[42;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m Browse[K[41d(B[0;7mFile Name to Write: middle.sh                                                      [41;30H(B[m[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;50H(B[0;7m [82G(B[m[41;34H(B[0;7m[ Wrote 3 lines ](B[m[42;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[?12l[?25h[4;52H[?25l[41d[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ s[Kwc -l *.pdb | sort -n
-[?2004l    9 methane.pdb
-   12 ethane.pdb
-   15 alkanes.pdb
-   15 propane.pdb
-   20 cubane.pdb
-   21 pentane.pdb
-   30 octane.pdb
-  122 all.pdb
-  244 total
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ nn[Kano sp[Korted-lengths.txt [K[K[K[K[K[K[K[K[K[K[K[K[K,[K.sh
-[?2004l[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;36H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                         sorted.sh                                   [1;82H(B[m[42d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;50H(B[0;7m*[82G(B[m[?12l[?25h[2d[36m# Sort files b[39m(B[m[?25l[36my their length.[3d# Usage: bash sorted.sh one_or_more_filenames[41d[39m(B[m[K[4d[?12l[?25hwc(B[0;1m[35m -l[39m(B[m (B[0;1m[33m"$@"[39m(B[m [32m|[39m(B[m (B[0;1m[34msort[35m -n[39m(B[m[?25l[42;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m Browse[K[41d(B[0;7mFile Name to Write: sorted.sh                                                      [41;30H(B[m[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;50H(B[0;7m [82G(B[m[41;34H(B[0;7m[ Wrote 3 lines ](B[m[42;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[?12l[?25h[4;21H[?25l[41d[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ bash sorted.sh *.pdb ../creatures/*.dat
-[?2004l    9 methane.pdb
-   12 ethane.pdb
-   15 alkanes.pdb
-   15 propane.pdb
-   20 cubane.pdb
-   21 pentane.pdb
-   30 octane.pdb
-  122 all.pdb
-  163 ../creatures/basilisk.dat
-  163 ../creatures/minotaur.dat
-  163 ../creatures/unicorn.dat
-  733 total
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ history | tail -n 5 > redo-figure-3.sh
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ ls
-[?2004l[0m[01;32malkanes.pdb[0m  [01;32methane.pdb[0m   [01;32mmiddle.sh[0m    [01;32mpropane.pdb[0m         [01;32msorted.sh[0m
-[01;32mall.pdb[0m      [01;32mlengths.txt[0m  [01;32moctane.pdb[0m   [01;32mredo-figure-3.sh[0m    [01;32mtestfile01.txt[0m
-[01;32mcubane.pdb[0m   [01;32mmethane.pdb[0m  [01;32mpentane.pdb[0m  [01;32msorted-lengths.txt[0m  [01;32mtestfile02.txt[0m
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ echo $@.pdb
-[?2004l.pdb
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/proteins[00m$ cd Desk[K[K[K[K..
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ cd writing/
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ cat haiku.txt 
-[?2004lThe Tao that is seen
-Is not the true Tao, until
-You bring fresh toner.
-
-With searching comes loss
-and the presence of absence:
-"My Thesis" not found.
-
-Yesterday it worked
-Today it is not working
-Software is like that.
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ grep nt[Kot haiku.txt 
-[?2004lIs [01;31m[Knot[m[K the true Tao, until
-"My Thesis" [01;31m[Knot[m[K found.
-Today it is [01;31m[Knot[m[K working
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ grap[K[Krp [K[K[Kep The haiku.txt 
-[?2004l[01;31m[KThe[m[K Tao that is seen
-"My [01;31m[KThe[m[Ksis" not found.
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ grep -w The haiku.txt 
-[?2004l[01;31m[KThe[m[K Tao that is seen
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ gerwp[K[K[K[Krep -w "is not " haiku.txt [1P
-[?2004lToday it [01;31m[Kis not[m[K working
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ grep -n it haiku.txt 
-[?2004l[32m[K5[m[K[36m[K:[m[KW[01;31m[Kit[m[Kh searching comes loss
-[32m[K9[m[K[36m[K:[m[KYesterday [01;31m[Kit[m[K worked
-[32m[K10[m[K[36m[K:[m[KToday [01;31m[Kit[m[K is not working
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ grep -n -w =i[K[K-i the haiku.txt 
-[?2004l[32m[K1[m[K[36m[K:[m[K[01;31m[KThe[m[K Tao that is seen
-[32m[K2[m[K[36m[K:[m[KIs not [01;31m[Kthe[m[K true Tao, until
-[32m[K6[m[K[36m[K:[m[Kand [01;31m[Kthe[m[K presence of absence:
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ ge[Krep -n -w -v the haiku.txt 
-[?2004l[32m[K1[m[K[36m[K:[m[KThe Tao that is seen
-[32m[K3[m[K[36m[K:[m[KYou bring fresh toner.
-[32m[K4[m[K[36m[K:[m[K
-[32m[K5[m[K[36m[K:[m[KWith searching comes loss
-[32m[K7[m[K[36m[K:[m[K"My Thesis" not found.
-[32m[K8[m[K[36m[K:[m[K
-[32m[K9[m[K[36m[K:[m[KYesterday it worked
-[32m[K10[m[K[36m[K:[m[KToday it is not working
-[32m[K11[m[K[36m[K:[m[KSoftware is like that.
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ grep -r Yesterday
-[?2004l[35m[Khaiku.txt[m[K[36m[K:[m[K[01;31m[KYesterday[m[K it worked
-[35m[KLittleWomen.txt[m[K[36m[K:[m[K"[01;31m[KYesterday[m[K, when Aunt was asleep and I was trying to be as still as a
-[35m[KLittleWomen.txt[m[K[36m[K:[m[K[01;31m[KYesterday[m[K at dinner, when an Austrian officer stared at us and then
-[35m[KLittleWomen.txt[m[K[36m[K:[m[K[01;31m[KYesterday[m[K was a quiet day spent in teaching, sewing, and writing in my
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ grep -- help
-[?2004l^C
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ grep -- help[Kgrep -- help[1Phelp
-[?2004lUsage: grep [OPTION]... PATTERNS [FILE]...
-Search for PATTERNS in each FILE.
-Example: grep -i 'hello world' menu.h main.c
-PATTERNS can contain multiple patterns separated by newlines.
-
-Pattern selection and interpretation:
-  -E, --extended-regexp     PATTERNS are extended regular expressions
-  -F, --fixed-strings       PATTERNS are strings
-  -G, --basic-regexp        PATTERNS are basic regular expressions
-  -P, --perl-regexp         PATTERNS are Perl regular expressions
-  -e, --regexp=PATTERNS     use PATTERNS for matching
-  -f, --file=FILE           take PATTERNS from FILE
-  -i, --ignore-case         ignore case distinctions in patterns and data
-      --no-ignore-case      do not ignore case distinctions (default)
-  -w, --word-regexp         match only whole words
-  -x, --line-regexp         match only whole lines
-  -z, --null-data           a data line ends in 0 byte, not newline
-
-Miscellaneous:
-  -s, --no-messages         suppress error messages
-  -v, --invert-match        select non-matching lines
-  -V, --version             display version information and exit
-      --help                display this help text and exit
-
-Output control:
-  -m, --max-count=NUM       stop after NUM selected lines
-  -b, --byte-offset         print the byte offset with output lines
-  -n, --line-number         print line number with output lines
-      --line-buffered       flush output on every line
-  -H, --with-filename       print file name with output lines
-  -h, --no-filename         suppress the file name prefix on output
-      --label=LABEL         use LABEL as the standard input file name prefix
-  -o, --only-matching       show only nonempty parts of lines that match
-  -q, --quiet, --silent     suppress all normal output
-      --binary-files=TYPE   assume that binary files are TYPE;
-                            TYPE is 'binary', 'text', or 'without-match'
-  -a, --text                equivalent to --binary-files=text
-  -I                        equivalent to --binary-files=without-match
-  -d, --directories=ACTION  how to handle directories;
-                            ACTION is 'read', 'recurse', or 'skip'
-  -D, --devices=ACTION      how to handle devices, FIFOs and sockets;
-                            ACTION is 'read' or 'skip'
-  -r, --recursive           like --directories=recurse
-  -R, --dereference-recursive  likewise, but follow all symlinks
-      --include=GLOB        search only files that match GLOB (a file pattern)
-      --exclude=GLOB        skip files that match GLOB
-      --exclude-from=FILE   skip files that match any file pattern from FILE
-      --exclude-dir=GLOB    skip directories that match GLOB
-  -L, --files-without-match  print only names of FILEs with no selected lines
-  -l, --files-with-matches  print only names of FILEs with selected lines
-  -c, --count               print only a count of selected lines per FILE
-  -T, --initial-tab         make tabs line up (if needed)
-  -Z, --null                print 0 byte after FILE name
-
-Context control:
-  -B, --before-context=NUM  print NUM lines of leading context
-  -A, --after-context=NUM   print NUM lines of trailing context
-  -C, --context=NUM         print NUM lines of output context
-  -NUM                      same as --context=NUM
-      --group-separator=SEP  print SEP on line between matches with context
-      --no-group-separator  do not print separator for matches with context
-      --color[=WHEN],
-      --colour[=WHEN]       use markers to highlight the matching strings;
-                            WHEN is 'always', 'never', or 'auto'
-  -U, --binary              do not strip CR characters at EOL (MSDOS/Windows)
-
-When FILE is '-', read standard input.  With no FILE, read '.' if
-recursive, '-' otherwise.  With fewer than two FILEs, assume -h.
-Exit status is 0 if any line is selected, 1 otherwise;
-if any error occurs and -q is not given, the exit status is 2.
-
-Report bugs to: bug-grep@gnu.org
-GNU grep home page: <https://www.gnu.org/software/grep/>
-General help using GNU software: <https://www.gnu.org/gethelp/>
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ grep -R "A[K^.o" haiku.txt 
-[?2004l[01;31m[KYo[m[Ku bring fresh toner.
-[01;31m[KTo[m[Kday it is not working
-[01;31m[KSo[m[Kftware is like that.
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ cut -d : -f 2
-[?2004l>
->
-|
-|
-grep -w $1 -r $2
-grep -w $1 -r $2
-|
-|
-$1.txt
-$1.txt
-cur t -d , -f 1,3
-cut -d , -f 1,3
-^C
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ find
-[?2004l.
-./backup
-./haiku.txt
-./LittleWomen.txt
-./thesis_backup
-./thesis_backup/quotations.txt
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data/writing[00m$ cd ..
-[?2004l[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ cd ..[1Pfind
-[?2004l.
-./animal-counts
-./animal-counts/animals-subset.csv
-./animal-counts/animals.csv
-./creatures
-./creatures/basilisk.dat
-./creatures/minotaur.dat
-./creatures/unicorn.dat
-./numbers.txt
-./proteins
-./proteins/alkanes.pdb
-./proteins/all.pdb
-./proteins/cubane.pdb
-./proteins/ethane.pdb
-./proteins/lengths.txt
-./proteins/methane.pdb
-./proteins/middle.sh
-./proteins/octane.pdb
-./proteins/pentane.pdb
-./proteins/propane.pdb
-./proteins/redo-figure-3.sh
-./proteins/sorted-lengths.txt
-./proteins/sorted.sh
-./proteins/testfile01.txt
-./proteins/testfile02.txt
-./writing
-./writing/backup
-./writing/haiku.txt
-./writing/LittleWomen.txt
-./writing/thesis_backup
-./writing/thesis_backup/quotations.txt
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ find . -type d
-[?2004l.
-./animal-counts
-./creatures
-./proteins
-./writing
-./writing/backup
-./writing/thesis_backup
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ find . -i[Ktype f
-[?2004l./animal-counts/animals-subset.csv
-./animal-counts/animals.csv
-./creatures/basilisk.dat
-./creatures/minotaur.dat
-./creatures/unicorn.dat
-./numbers.txt
-./proteins/alkanes.pdb
-./proteins/all.pdb
-./proteins/cubane.pdb
-./proteins/ethane.pdb
-./proteins/lengths.txt
-./proteins/methane.pdb
-./proteins/middle.sh
-./proteins/octane.pdb
-./proteins/pentane.pdb
-./proteins/propane.pdb
-./proteins/redo-figure-3.sh
-./proteins/sorted-lengths.txt
-./proteins/sorted.sh
-./proteins/testfile01.txt
-./proteins/testfile02.txt
-./writing/haiku.txt
-./writing/LittleWomen.txt
-./writing/thesis_backup/quotations.txt
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ find . -name numbers [K.txt 
-[?2004l./numbers.txt
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ find . -name "*.txt"
-[?2004l./numbers.txt
-./proteins/lengths.txt
-./proteins/sorted-lengths.txt
-./proteins/testfile01.txt
-./proteins/testfile02.txt
-./writing/haiku.txt
-./writing/LittleWomen.txt
-./writing/thesis_backup/quotations.txt
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ ec -l $(find . -name "*.txt")
-[?2004lec: command not found
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ ec -l $(find . -name "*.txt")[C[1P[1@w
-[?2004l      5 ./numbers.txt
-      0 ./proteins/lengths.txt
-      7 ./proteins/sorted-lengths.txt
-      1 ./proteins/testfile01.txt
-      2 ./proteins/testfile02.txt
-     11 ./writing/haiku.txt
-  21022 ./writing/LittleWomen.txt
-      1 ./writing/thesis_backup/quotations.txt
-  21049 total
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ wc -l ./writing/;[Klit[K[K[KLittleWomen.txt  ./writing/haiku.txt  ./numbers.txt 
-[?2004l  21022 ./writing/LittleWomen.txt
-     11 ./writing/haiku.txt
-      5 ./numbers.txt
-  21038 total
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ grep "e[Ksearcji[K[Khing" $(find . na[K[K-name "*.txt")
-[?2004l[35m[K./writing/haiku.txt[m[K[36m[K:[m[KWith [01;31m[Ksearching[m[K comes loss
-[35m[K./writing/LittleWomen.txt[m[K[36m[K:[m[Ksitting on the top step, affected to be [01;31m[Ksearching[m[K for her book, but was
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ wc -l $(find . -name "*.dat") | sort -n
-[?2004l 163 ./creatures/basilisk.dat
- 163 ./creatures/minotaur.dat
- 163 ./creatures/unicorn.dat
- 489 total
-[?2004h(base) ]0;vinod@TIGER02097: /mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[01;32mvinod@TIGER02097[00m:[01;34m/mnt/c/Users/vinod.subramania/Desktop/shell-lesson-data/exercise-data[00m$ exit
-[?2004lexit
-
-Script done on 2022-08-26 20:52:49+05:30 [COMMAND_EXIT_CODE="0"]
