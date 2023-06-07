@@ -1,0 +1,29 @@
+boolean buttonWasUp = true;
+boolean ledEnabled = false;
+
+//This function executed when the program starts
+void setup() {
+//Set pin 10 to output
+  pinMode(10, OUTPUT);
+//Set pin 2 to input information about button
+  pinMode(2, INPUT_PULLUP);
+}
+
+//This function is executed while the program is running
+void loop() {
+   // Find out if the button is currently released
+   boolean buttonIsUp = digitalRead(2);
+   if (buttonWasUp && !buttonIsUp) {
+      // Exclude the bounce of the contacts of the clock button
+      delay(10);
+    // Get the signal from button again
+    buttonIsUp = digitalRead(2);
+      // If button pressed, change led state(ON/OFF)
+      if (!buttonIsUp) {
+         ledEnabled = !ledEnabled;
+         digitalWrite(10, ledEnabled);
+      }
+   }
+   // Save button state for next iteration
+   buttonWasUp = buttonIsUp;
+}
