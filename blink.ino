@@ -1,24 +1,49 @@
 /*
-  Blink
-  Turns on an LED on for one second, then off for one second, repeatedly.
+  Blink - Enhanced Version
+  Creates a fancy blinking pattern with variable delays and brightness levels.
+  Perfect for testing GitHub PR workflows!
  
   This example code is in the public domain.
  */
- 
-// Pin 13 has an LED connected on most Arduino boards.
-// give it a name:
-int led = 13;
 
-// the setup routine runs once when you press reset:
-void setup() {                
-  // initialize the digital pin as an output.
-  pinMode(led, OUTPUT);     
+// Constants for pin and timing configurations 
+const int LED_PIN = 13;  // Most Arduino boards have built-in LED on pin 13
+const int FADE_STEPS = 5;
+const int FADE_DELAY = 30;  // Reduced delay for faster animation
+const int PAUSE_DELAY = 300;  // Shorter dramatic pause
+
+// Global variables for LED state
+int brightness = 0;
+bool increasing = true;
+
+void setup() {
+  // Initialize LED pin and serial communication
+  pinMode(LED_PIN, OUTPUT);
+  Serial.begin(9600);  // For debugging
+  Serial.println("Fancy Blink Pattern Started!");
 }
 
-// the loop routine runs over and over again forever:
 void loop() {
-  digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);               // wait for a second
-  digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW
-  delay(2000);               // wait for a second
+  // Implement smoother fading with smaller steps
+  if (increasing) {
+    brightness += 25;  // Smaller steps for smoother transition
+    if (brightness >= 255) {
+      brightness = 255;
+      increasing = false;
+    }
+  } else {
+    brightness -= 25;
+    if (brightness <= 0) {
+      brightness = 0;
+      increasing = true;
+    }
+  }
+
+  analogWrite(LED_PIN, brightness);
+  delay(FADE_DELAY);
+  
+  // Add shorter pause at min/max brightness
+  if (brightness == 0 || brightness == 255) {
+    delay(PAUSE_DELAY);
+  }
 }
