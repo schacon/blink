@@ -9,7 +9,8 @@
 // Constants for pin and timing configurations 
 const int LED_PIN = 13;  // Most Arduino boards have built-in LED on pin 13
 const int FADE_STEPS = 5;
-const int FADE_DELAY = 50;
+const int FADE_DELAY = 30;  // Reduced delay for faster animation
+const int PAUSE_DELAY = 300;  // Shorter dramatic pause
 
 // Global variables for LED state
 int brightness = 0;
@@ -23,26 +24,26 @@ void setup() {
 }
 
 void loop() {
-  // Fancy fade effect
+  // Implement smoother fading with smaller steps
   if (increasing) {
-    brightness += 51;  // 255/5 steps = 51 per step
+    brightness += 25;  // Smaller steps for smoother transition
     if (brightness >= 255) {
       brightness = 255;
       increasing = false;
     }
   } else {
-    brightness -= 51;
+    brightness -= 25;
     if (brightness <= 0) {
-      brightness = 0; 
+      brightness = 0;
       increasing = true;
     }
   }
 
-  analogWrite(LED_PIN, brightness);  // PWM output for smooth fading
-  delay(FADE_DELAY);  // Short delay for smooth animation
+  analogWrite(LED_PIN, brightness);
+  delay(FADE_DELAY);
   
-  // Add a pause at min/max brightness
+  // Add shorter pause at min/max brightness
   if (brightness == 0 || brightness == 255) {
-    delay(500);  // Dramatic pause!
+    delay(PAUSE_DELAY);
   }
 }
